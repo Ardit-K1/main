@@ -41,15 +41,30 @@ section {
 }
 
 #home {
-    text-align: center;
+    background-image: url('bkg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+    padding: 50px; 
+    text-align: center; 
 }
 
+#home h2 {
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+}
+
+#home p {
+    font-size: 1.2em; 
+}
 #menu, #drinks {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
     gap: 30px; 
     margin-top: 20px;
 }
+
 
 
 .menu-item, .drink-item {
@@ -145,4 +160,21 @@ footer {
     padding: 20px;
     background-color: #333;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    #menu .menu-banner {
+        width: 70%; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    #menu .menu-banner {
+        width: 90%; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
 }
