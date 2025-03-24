@@ -1,0 +1,55 @@
+ul#select li{
+    background-color: lightgrey;
+    margin-bottom: 15px;
+    padding: 20px;
+    color: white;
+    list-style-type: none;
+}
+
+ul#select{
+    padding: 0;
+}
+
+ul#select .iu-selecting{
+    background-color: #ff932b;
+}
+
+ul#select .iu-selectied{
+    background-color: #f0932b;
+}
+
+ul#sort li{
+    background-color: #686de0;
+    margin-bottom: 15px;
+    padding: 15px;
+    color: white;
+    list-style-type: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul#sort1 li{
+    background-color: #6ab04c;
+    margin-bottom: 15px;
+    padding: 15px;
+    color: white;
+    list-style-type: none;
+}
+
+ul#sort2 li{
+    background-color: #ff7979;
+    margin-bottom: 15px;
+    padding: 15px;
+    color: white;
+    list-style-type: none;
+}
+
+ul#sort1, ul#sort2{
+    background-color: lightgray;
+    padding: 30px;
+}
+
+
